@@ -4,10 +4,14 @@ import Header from './components/Header'
 import Card from './components/Card'
 
 function App() {
+const handleClick = () => {
+  console.log('CLICK')
+}
+
   return (
     <div className="App">
         <Header />
-        <Card />
+        <Card id={1} clickCount={handleClick}/>
     </div>
   );
 }
