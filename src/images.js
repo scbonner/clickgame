@@ -21,5 +21,5 @@ WileE
 
  ];
 
- export default images;
+ export default Images;
   

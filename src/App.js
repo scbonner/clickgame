@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header'
+import Heading from './components/Heading'
 import Card from './components/Card'
 
 function App() {
@@ -10,7 +10,7 @@ const handleClick = () => {
 
   return (
     <div className="App">
-        <Header />
+        <Heading />
         <Card id={1} clickCount={handleClick}/>
     </div>
   );
