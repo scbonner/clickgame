@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Heading from './components/Heading'
-import Card from './components/Card'
+import Heading from "./Heading";
+import Card from "./Card";
 
 function App() {
 const handleClick = () => {
